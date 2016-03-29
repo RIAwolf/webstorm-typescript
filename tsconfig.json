@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "outDir": "./bin",
+    "noLib": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html"
+  ]
+}
